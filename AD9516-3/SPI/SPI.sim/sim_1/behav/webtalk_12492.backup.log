@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Sep 08 17:25:15 2016
+# Process ID: 7472
+# Log file: C:/Users/fortu/Desktop/Vivado/SPI/SPI.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/fortu/Desktop/Vivado/SPI/SPI.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/fortu/Desktop/Vivado/SPI/SPI.sim/sim_1/behav/xsim.dir/main_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 3142789750 -regid "" -xml C:/Users/fortu/Desktop/Vivado/SPI/SPI.sim/sim_1/behav/xsim.dir/main_behav/webtalk/usage_statistic..."
+    (file "C:/Users/fortu/Desktop/Vivado/SPI/SPI.sim/sim_1/behav/xsim.dir/main_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Thu Sep 08 17:25:19 2016...
