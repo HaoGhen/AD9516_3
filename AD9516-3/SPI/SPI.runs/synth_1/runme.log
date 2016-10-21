@@ -1,0 +1,470 @@
+
+*** Running vivado
+    with args -log main.vds -m64 -mode batch -messageDb vivado.pb -notrace -source main.tcl
+
+
+****** Vivado v2015.2.1 (64-bit)
+  **** SW Build 1302555 on Wed Aug  5 13:06:02 MDT 2015
+  **** IP Build 1291990 on Mon Jul 27 03:18:52 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source main.tcl -notrace
+Command: synth_design -top main -part xcku040-ffva1156-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcku040'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcku040'
+INFO: [Common 17-1223] The version limit for your license is '2016.05' and will expire in -127 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 266.543 ; gain = 53.066
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'main' [G:/AD9516-3/main.v:1]
+INFO: [Synth 8-638] synthesizing module 'IBUFDS' [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:10271]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: FALSE - type: string 
+	Parameter DQS_BIAS bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUFDS' (1#1) [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:10271]
+INFO: [Synth 8-638] synthesizing module 'FALSE_PLL' [G:/AD9516-3/FALSE_PLL.v:1]
+INFO: [Synth 8-256] done synthesizing module 'FALSE_PLL' (2#1) [G:/AD9516-3/FALSE_PLL.v:1]
+INFO: [Synth 8-638] synthesizing module 'AD9516' [G:/AD9516-3/AD9516.v:1]
+	Parameter SM_VALUE0 bound to: 24'b000000000000000010011001 
+	Parameter SM_VALUE1 bound to: 24'b000000000000000100000000 
+	Parameter SM_VALUE2 bound to: 24'b000000000000001000010000 
+	Parameter SM_VALUE3 bound to: 24'b000000000000001101000011 
+	Parameter SM_VALUE4 bound to: 24'b000000000000010000000001 
+	Parameter SM_VALUE5 bound to: 24'b000000000001000001111100 
+	Parameter SM_VALUE6 bound to: 24'b000000000001000100000001 
+	Parameter SM_VALUE7 bound to: 24'b000000000001001000000000 
+	Parameter SM_VALUE8 bound to: 24'b000000000001001100001000 
+	Parameter SM_VALUE9 bound to: 24'b000000000001010000001100 
+	Parameter SM_VALUE10 bound to: 24'b000000000001010100000000 
+	Parameter SM_VALUE11 bound to: 24'b000000000001011000000101 
+	Parameter SM_VALUE12 bound to: 24'b000000000001011100000000 
+	Parameter SM_VALUE13 bound to: 24'b000000000001100000000110 
+	Parameter SM_VALUE14 bound to: 24'b000000000001100100000000 
+	Parameter SM_VALUE15 bound to: 24'b000000000001101000000000 
+	Parameter SM_VALUE16 bound to: 24'b000000000001101100000000 
+	Parameter SM_VALUE17 bound to: 24'b000000000001110001000100 
+	Parameter SM_VALUE18 bound to: 24'b000000000001110100000000 
+	Parameter SM_VALUE19 bound to: 24'b000000000001111000000000 
+	Parameter SM_VALUE20 bound to: 24'b000000000001111100001110 
+	Parameter SM_VALUE21 bound to: 24'b000000001010000000000000 
+	Parameter SM_VALUE22 bound to: 24'b000000001010000100000000 
+	Parameter SM_VALUE23 bound to: 24'b000000001010001000000000 
+	Parameter SM_VALUE24 bound to: 24'b000000001010001100000000 
+	Parameter SM_VALUE25 bound to: 24'b000000001010010000000000 
+	Parameter SM_VALUE26 bound to: 24'b000000001010010100000000 
+	Parameter SM_VALUE27 bound to: 24'b000000001010011000000000 
+	Parameter SM_VALUE28 bound to: 24'b000000001010011100000000 
+	Parameter SM_VALUE29 bound to: 24'b000000001010100000000000 
+	Parameter SM_VALUE30 bound to: 24'b000000001010100100000000 
+	Parameter SM_VALUE31 bound to: 24'b000000001010101000000000 
+	Parameter SM_VALUE32 bound to: 24'b000000001010101100000000 
+	Parameter SM_VALUE33 bound to: 24'b000000001111000000001000 
+	Parameter SM_VALUE34 bound to: 24'b000000001111000100001000 
+	Parameter SM_VALUE35 bound to: 24'b000000001111001000001000 
+	Parameter SM_VALUE36 bound to: 24'b000000001111001100001000 
+	Parameter SM_VALUE37 bound to: 24'b000000001111010000001000 
+	Parameter SM_VALUE38 bound to: 24'b000000001111010100001000 
+	Parameter SM_VALUE39 bound to: 24'b000000010100000001000010 
+	Parameter SM_VALUE40 bound to: 24'b000000010100000101000010 
+	Parameter SM_VALUE41 bound to: 24'b000000010100001001000010 
+	Parameter SM_VALUE42 bound to: 24'b000000010100001101000010 
+	Parameter SM_VALUE43 bound to: 24'b000000011001000000000000 
+	Parameter SM_VALUE44 bound to: 24'b000000011001000100000000 
+	Parameter SM_VALUE45 bound to: 24'b000000011001001000000000 
+	Parameter SM_VALUE46 bound to: 24'b000000011001001100000000 
+	Parameter SM_VALUE47 bound to: 24'b000000011001010000000000 
+	Parameter SM_VALUE48 bound to: 24'b000000011001010100000000 
+	Parameter SM_VALUE49 bound to: 24'b000000011001011000000000 
+	Parameter SM_VALUE50 bound to: 24'b000000011001011100000000 
+	Parameter SM_VALUE51 bound to: 24'b000000011001100000000000 
+	Parameter SM_VALUE52 bound to: 24'b000000011001100101000100 
+	Parameter SM_VALUE53 bound to: 24'b000000011001101000000000 
+	Parameter SM_VALUE54 bound to: 24'b000000011001101101000100 
+	Parameter SM_VALUE55 bound to: 24'b000000011001110000000000 
+	Parameter SM_VALUE56 bound to: 24'b000000011001110100000000 
+	Parameter SM_VALUE57 bound to: 24'b000000011001111000100010 
+	Parameter SM_VALUE58 bound to: 24'b000000011001111100000000 
+	Parameter SM_VALUE59 bound to: 24'b000000011010000000010001 
+	Parameter SM_VALUE60 bound to: 24'b000000011010000100000000 
+	Parameter SM_VALUE61 bound to: 24'b000000011010001000000000 
+	Parameter SM_VALUE62 bound to: 24'b000000011010001100000000 
+	Parameter SM_VALUE63 bound to: 24'b000000011110000000000010 
+	Parameter SM_VALUE64 bound to: 24'b000000011110000100000010 
+	Parameter SM_VALUE65 bound to: 24'b000000100011000000000000 
+	Parameter SM_VALUE66 bound to: 24'b000000100011000100000000 
+	Parameter SM_VALUE67 bound to: 24'b000000100011001000000001 
+	Parameter SM_VALUE68 bound to: 24'b000000000001100000000111 
+	Parameter SM_VALUE69 bound to: 24'b000000100011001000000001 
+	Parameter SM_VALUE70 bound to: 24'b100000000001111100000000 
+	Parameter SM_IDLE bound to: 8'b00000000 
+	Parameter SM_STATE0 bound to: 8'b00000001 
+	Parameter SM_STATE1 bound to: 8'b00000010 
+	Parameter SM_STATE2 bound to: 8'b00000011 
+	Parameter SM_STATE3 bound to: 8'b00000100 
+	Parameter SM_STATE4 bound to: 8'b00000101 
+	Parameter SM_STATE5 bound to: 8'b00000110 
+	Parameter SM_STATE6 bound to: 8'b00000111 
+	Parameter SM_STATE7 bound to: 8'b00001000 
+	Parameter SM_STATE8 bound to: 8'b00001001 
+	Parameter SM_STATE9 bound to: 8'b00001010 
+	Parameter SM_STATE10 bound to: 8'b00001011 
+	Parameter SM_STATE11 bound to: 8'b00001100 
+	Parameter SM_STATE12 bound to: 8'b00001101 
+	Parameter SM_STATE13 bound to: 8'b00001110 
+	Parameter SM_STATE14 bound to: 8'b00001111 
+	Parameter SM_STATE15 bound to: 8'b00010000 
+	Parameter SM_STATE16 bound to: 8'b00010001 
+	Parameter SM_STATE17 bound to: 8'b00010010 
+	Parameter SM_STATE18 bound to: 8'b00010011 
+	Parameter SM_STATE19 bound to: 8'b00010100 
+	Parameter SM_STATE20 bound to: 8'b00010101 
+	Parameter SM_STATE21 bound to: 8'b00010110 
+	Parameter SM_STATE22 bound to: 8'b00010111 
+	Parameter SM_STATE23 bound to: 8'b00011000 
+	Parameter SM_STATE24 bound to: 8'b00011001 
+	Parameter SM_STATE25 bound to: 8'b00011010 
+	Parameter SM_STATE26 bound to: 8'b00011011 
+	Parameter SM_STATE27 bound to: 8'b00011100 
+	Parameter SM_STATE28 bound to: 8'b00011101 
+	Parameter SM_STATE29 bound to: 8'b00011110 
+	Parameter SM_STATE30 bound to: 8'b00011111 
+	Parameter SM_STATE31 bound to: 8'b00100000 
+	Parameter SM_STATE32 bound to: 8'b00100001 
+	Parameter SM_STATE33 bound to: 8'b00100010 
+	Parameter SM_STATE34 bound to: 8'b00100011 
+	Parameter SM_STATE35 bound to: 8'b00100100 
+	Parameter SM_STATE36 bound to: 8'b00100101 
+	Parameter SM_STATE37 bound to: 8'b00100110 
+	Parameter SM_STATE38 bound to: 8'b00100111 
+	Parameter SM_STATE39 bound to: 8'b00101000 
+	Parameter SM_STATE40 bound to: 8'b00101001 
+	Parameter SM_STATE41 bound to: 8'b00101010 
+	Parameter SM_STATE42 bound to: 8'b00101011 
+	Parameter SM_STATE43 bound to: 8'b00101100 
+	Parameter SM_STATE44 bound to: 8'b00101101 
+	Parameter SM_STATE45 bound to: 8'b00101110 
+	Parameter SM_STATE46 bound to: 8'b00101111 
+	Parameter SM_STATE47 bound to: 8'b00110000 
+	Parameter SM_STATE48 bound to: 8'b00110001 
+	Parameter SM_STATE49 bound to: 8'b00110010 
+	Parameter SM_STATE50 bound to: 8'b00110011 
+	Parameter SM_STATE51 bound to: 8'b00110100 
+	Parameter SM_STATE52 bound to: 8'b00110101 
+	Parameter SM_STATE53 bound to: 8'b00110110 
+	Parameter SM_STATE54 bound to: 8'b00110111 
+	Parameter SM_STATE55 bound to: 8'b00111000 
+	Parameter SM_STATE56 bound to: 8'b00111001 
+	Parameter SM_STATE57 bound to: 8'b00111010 
+	Parameter SM_STATE58 bound to: 8'b00111011 
+	Parameter SM_STATE59 bound to: 8'b00111100 
+	Parameter SM_STATE60 bound to: 8'b00111101 
+	Parameter SM_STATE61 bound to: 8'b00111110 
+	Parameter SM_STATE62 bound to: 8'b00111111 
+	Parameter SM_STATE63 bound to: 8'b01000000 
+	Parameter SM_STATE64 bound to: 8'b01000001 
+	Parameter SM_STATE65 bound to: 8'b01000010 
+	Parameter SM_STATE66 bound to: 8'b01000011 
+	Parameter SM_STATE67 bound to: 8'b01000100 
+	Parameter SM_STATE68 bound to: 8'b01000101 
+	Parameter SM_STATE69 bound to: 8'b01000110 
+	Parameter SM_STATE70 bound to: 8'b01000111 
+	Parameter SM_STATE71 bound to: 8'b01001000 
+	Parameter SM_WAIT bound to: 8'b01001001 
+	Parameter SM_CONFIG bound to: 8'b01001010 
+	Parameter SM_STOP bound to: 8'b01001011 
+	Parameter SM_READ bound to: 8'b01001100 
+INFO: [Synth 8-256] done synthesizing module 'AD9516' (3#1) [G:/AD9516-3/AD9516.v:1]
+INFO: [Synth 8-256] done synthesizing module 'main' (4#1) [G:/AD9516-3/main.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 300.754 ; gain = 87.277
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 300.754 ; gain = 87.277
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xcku040-ffva1156-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [G:/AD9516-3/SPI/SPI.srcs/constrs_1/new/main.xdc]
+Finished Parsing XDC File [G:/AD9516-3/SPI/SPI.srcs/constrs_1/new/main.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IBUFDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 784.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 784.074 ; gain = 570.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcku040-ffva1156-2-e
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 784.074 ; gain = 570.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 784.074 ; gain = 570.598
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "config_count" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_NEXT" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 784.074 ; gain = 570.598
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     24 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   6 Input      8 Bit        Muxes := 1     
+	  78 Input      3 Bit        Muxes := 1     
+	  78 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module AD9516 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     24 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   6 Input      8 Bit        Muxes := 1     
+	  78 Input      3 Bit        Muxes := 1     
+	  78 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1920 (col length:120)
+BRAMs: 1200 (col length: RAMB18 120 RAMB36 60)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 784.074 ; gain = 570.598
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5562] The signal spi/SM_NEXT_reg is implemented as block RAM but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (7 address bits)* is shallow. Please use attribute (* ram_style = "distributed" *) to instruct Vivado to infer distributed LUT RAM.
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 784.074 ; gain = 570.598
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 784.074 ; gain = 570.598
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|main        | extrom     | 128x8         | Block RAM      | 
++------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (\spi/SM_reg_rep[7] ) is unused and will be removed from module main.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 784.074 ; gain = 570.598
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 784.074 ; gain = 570.598
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 784.074 ; gain = 570.598
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1018.539 ; gain = 805.063
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1018.570 ; gain = 805.094
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance \spi/SM_NEXT_reg  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1040.887 ; gain = 827.410
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1040.887 ; gain = 827.410
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1040.887 ; gain = 827.410
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1040.887 ; gain = 827.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1040.887 ; gain = 827.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1040.887 ; gain = 827.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     2|
+|2     |CARRY8   |     6|
+|3     |LUT1     |    44|
+|4     |LUT2     |     9|
+|5     |LUT3     |    10|
+|6     |LUT4     |     6|
+|7     |LUT5     |    13|
+|8     |LUT6     |    69|
+|9     |MUXF7    |    16|
+|10    |RAMB18E2 |     1|
+|11    |FDRE     |    79|
+|12    |IBUF     |     1|
+|13    |IBUFDS   |     1|
+|14    |OBUF     |    11|
++------+---------+------+
+
+Report Instance Areas: 
++------+---------+----------+------+
+|      |Instance |Module    |Cells |
++------+---------+----------+------+
+|1     |top      |          |   268|
+|2     |  pll    |FALSE_PLL |    49|
+|3     |  spi    |AD9516    |   204|
++------+---------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1040.887 ; gain = 827.410
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 1040.887 ; gain = 321.902
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1040.887 ; gain = 827.410
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  BUFG => BUFGCE: 2 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 1 instances
+  IBUFDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1040.887 ; gain = 818.047
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.071 . Memory (MB): peak = 1040.887 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 05 15:43:48 2016...

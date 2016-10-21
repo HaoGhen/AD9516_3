@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/fortu/Desktop/Vivado/AD9516.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AD9516
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/fortu/Desktop/Vivado/FALSE_PLL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FALSE_PLL
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/fortu/Desktop/Vivado/main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/fortu/Desktop/Vivado/SPI/SPI.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

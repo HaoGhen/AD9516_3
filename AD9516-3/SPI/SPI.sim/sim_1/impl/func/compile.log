@@ -1,0 +1,15 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/fortu/Desktop/Vivado/SPI/SPI.sim/sim_1/impl/func/main_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AD9516
+INFO: [VRFC 10-311] analyzing module main
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/fortu/Desktop/Vivado/AD9516.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AD9516
+WARNING: [VRFC 10-1195] overwriting previous definition of module AD9516 [C:/Users/fortu/Desktop/Vivado/AD9516.v:1]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/fortu/Desktop/Vivado/FALSE_PLL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FALSE_PLL
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/fortu/Desktop/Vivado/main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main
+WARNING: [VRFC 10-1195] overwriting previous definition of module main [C:/Users/fortu/Desktop/Vivado/main.v:1]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/fortu/Desktop/Vivado/SPI/SPI.sim/sim_1/impl/func/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [C:/Users/fortu/Desktop/Vivado/SPI/SPI.sim/sim_1/impl/func/glbl.v:6]

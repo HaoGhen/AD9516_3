@@ -1,0 +1,20 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto a7ace55580db459faa3aaa8745fcfd30 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot main_behav xil_defaultlib.main xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "/wrk/buildscratch/2015.2/continuous/20150626163259/data/verilog/src/unisims/IBUFDS.v" Line 33. Module IBUFDS has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/fortu/Desktop/Vivado/SPI/SPI.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/buildscratch/2015.2/continuous/20150626163259/data/verilog/src/unisims/IBUFDS.v" Line 33. Module IBUFDS has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/fortu/Desktop/Vivado/SPI/SPI.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUFDS
+Compiling module xil_defaultlib.FALSE_PLL
+Compiling module xil_defaultlib.AD9516
+Compiling module xil_defaultlib.main
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot main_behav

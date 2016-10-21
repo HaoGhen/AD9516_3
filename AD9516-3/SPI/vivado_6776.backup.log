@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2015.2.1 (64-bit)
+# SW Build 1302555 on Wed Aug  5 13:06:02 MDT 2015
+# IP Build 1291990 on Mon Jul 27 03:18:52 MDT 2015
+# Start of session at: Wed Oct 05 16:54:46 2016
+# Process ID: 17652
+# Log file: G:/AD9516-3/SPI/vivado.log
+# Journal file: G:/AD9516-3/SPI\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/AD9516-3/SPI/SPI.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+set_property STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE true [get_runs impl_1]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Oct 05 16:55:05 2016] Launched impl_1...
+Run output will be captured here: G:/AD9516-3/SPI/SPI.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
